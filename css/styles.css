@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/*ESTILIZAÇÃO BODY*/
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #950101;
+    padding: 3px 0;
+}
+/*ESTILIZAÇÃO DIV HEADER*/
+.divHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+/*ESTILIZAÇÃO LOGO*/
+.logo {
+    width: 9em;
+}
+
+/*ESTILIZAÇÃO MENU*/
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/*ESTILIZAÇÃO BANNER*/
+.banner {
+    width: 100%;
+    display: none;
+    object-fit: cover;
+    height: 400px;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner.active {
+    display: block;
+}
+
+/*ESTILIZAÇÃO SOBRE NÓS*/
+.sobreNos {
+    margin: 0;
+    /*background-color: white;*/
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 1.4em;
+}
+
+.tituloSobreNos {
+    clear: left;
+    text-align: left;
+    color: rgb(193, 1, 1);
+}
+
+.linksAcervo a{
+    color: rgb(193, 1, 1);
+}
+
+/*ESTILIZAÇÃO MAPA*/
+.tituloLocalizacao {
+    clear: left;
+    text-align: center;
+}
+
+.mapaGeral {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(#ddd, #757575);
+    font-size: 1.4em;
+}
+
+.mapa iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 450px;
+}
